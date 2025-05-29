@@ -145,7 +145,7 @@ export default function GuitarPage() {
 ${formData.notes ? `📝 *Notes:* ${formData.notes}` : ""}
 ${uploadedFile ? `📎 *File:* ${uploadedFile.name}` : ""}
 
-🎵 Order placed via StickifyNepal.com/guitar
+🎵 Order placed via https://stickifynepal.vercel.app//guitar
     `.trim()
 
     const whatsappUrl = `https://wa.me/9779808901365?text=${encodeURIComponent(orderDetails)}`

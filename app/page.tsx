@@ -165,7 +165,7 @@ export default function HomePage() {
 ${formData.notes ? `📝 *Notes:* ${formData.notes}` : ""}
 ${uploadedFile ? `📎 *File:* ${uploadedFile.name}` : ""}
 
-✨ Order placed via StickifyNepal.com
+✨ Order placed via https://stickifynepal.vercel.app/
     `.trim()
 
     const whatsappUrl = `https://wa.me/9779808901365?text=${encodeURIComponent(orderDetails)}`
