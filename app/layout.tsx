@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Stickify',
   description: 'Print your ideas into reality with us',
-  generator: 'v0.dev',
+  generator: 'StickifyNepal',
   applicationName: 'StickifyNepal',
   referrer: 'origin-when-cross-origin',
   keywords: [
